@@ -8,12 +8,12 @@ ipeline {
            }
     stage ('build1') {
       steps {
-        sh bash preeth
+        sh bash preethi
       }
     }
     stage ('test') {
       steps {
-        sh bash sab
+        sh bash nish
       }
     }
   }
