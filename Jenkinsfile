@@ -3,17 +3,17 @@ pipeline {
   stages {
     stage ('build') {
          steps {
-              echo "hai all"
+              echo 'hai all'
              }
            }
     stage ('build1') {
       steps {
-         bash preethi
+         sh preethi
       }
     }
     stage ('test') {
       steps {
-         bash nish
+         sh nish
       }
     }
   }
