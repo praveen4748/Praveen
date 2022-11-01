@@ -8,12 +8,12 @@ pipeline {
            }
     stage ('build1') {
       steps {
-         sh preethi.sh
+         sh 'bash preethi.sh'
       }
     }
     stage ('test') {
       steps {
-         sh nish.sh
+         sh 'bash nish.sh'
       }
     }
   }
