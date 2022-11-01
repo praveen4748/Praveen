@@ -1,4 +1,4 @@
-Pipeline {
+ipeline {
   agent any
   stages {
     stage ('build') {
@@ -8,17 +8,12 @@ Pipeline {
            }
     stage ('build1') {
       steps {
-        bash preethi
-      }
-    }
-    stage ('build2') {
-      steps {
-        bash nish
+        bash preeth.txt
       }
     }
     stage ('test') {
       steps {
-        bash sabari
+        bash sab.txt
       }
     }
   }
