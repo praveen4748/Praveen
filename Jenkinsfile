@@ -3,17 +3,17 @@ ipeline {
   stages {
     stage ('build') {
          steps {
-             echo "hai all"
+             sh echo "hai all"
              }
            }
     stage ('build1') {
       steps {
-        bash preeth.txt
+        sh bash preeth
       }
     }
     stage ('test') {
       steps {
-        bash sab.txt
+        sh bash sab
       }
     }
   }
